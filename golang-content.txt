@@ -1,0 +1,5 @@
+Go - 
+   variable, function, array(fixed length) vs slice(can shrink and grow), 
+   map(key(all key must be same type)-value(all value must be same type)) vs 
+   struct(key(must not be same type)-value(can be any types))
+ 
