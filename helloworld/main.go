@@ -1,10 +1,13 @@
+//FIXME-
 package main
 
 import "fmt"
 
 func main(){
 
+	//TODO: Add more features for better understanding. 
 	fmt.Println("Hello World!!");
+	// 
 	name := "Alice" // string
 	age := 30    // int
 	elder := true // bool

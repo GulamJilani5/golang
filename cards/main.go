@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	// TODO
 	cards := []string{"Ace of Diamond", newCard()}
 
 	cards = append(cards, "Six of Spades")
@@ -11,7 +12,7 @@ func main() {
 	// fmt.Println(cards)
 
 	for i, card := range cards {
-		fmt.Println(card)
+		fmt.Println(i, card)
 	}
 }
 

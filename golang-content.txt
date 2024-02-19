@@ -1,5 +1,31 @@
-Go - 
+###) To run go code
+    go run helloworld/main.go
+
+## Topics - 
    variable, function, array(fixed length) vs slice(can shrink and grow), 
    map(key(all key must be same type)-value(all value must be same type)) vs 
    struct(key(must not be same type)-value(can be any types))
  
+
+
+
+### TODO- Steps 
+LINK - https://dev.to/eclecticcoding/todo-list-in-vscode-2mnb
+Extension - TODO Tree by Gruntfuggly
+
+ ### settings.json
+"todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line",
+      "iconColour": "green",
+      "foreground": "white",
+      "background": "green"
+    },
+    "FIXME": {
+      "icon": "beaker",
+      "iconColour": "red",
+      "foreground": "white",
+      "background": "red"
+    }
+  }
